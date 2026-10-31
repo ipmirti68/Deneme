@@ -15,6 +15,12 @@ KANALLAR = [
         "url": "https://www.showtv.com.tr/canli-yayin",
         "anahtar": "master.m3u8", 
         "logo": "https://mo.ciner.com.tr/showtv/iletisim/logo.png"
+    },
+    {
+        "isim": "【entity-Show¦canonical_name=Show TV】 TV",
+        "url": "https://www.showtv.com.tr/canli-yayin",
+        "anahtar": "master.m3u8", 
+        "logo": "https://mo.ciner.com.tr/showtv/iletisim/logo.png"
     }
 ]
 
