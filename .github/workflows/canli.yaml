@@ -1,0 +1,45 @@
+name: Ulusal Kanallar M3U Botu
+
+on:
+  schedule:
+    # Her gün UTC ile 00:00'da (TSİ 03:00) otomatik çalışır.
+    - cron: '0 0 * * *'
+  workflow_dispatch: # GitHub panelinden elle tetiklemek için
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+    - name: Depoyu Klonla (Checkout)
+      uses: actions/checkout@v4
+
+    - name: Python Kurulumu
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Bağımlılıkları Yükle
+      run: |
+        python -m pip install --upgrade pip
+        pip install playwright
+
+    - name: Playwright Tarayıcılarını ve Sistem Bağımlılıklarını Kur
+      run: |
+        python -m playwright install chromium
+        python -m playwright install-deps chromium
+
+    - name: Botu Çalıştır (M3U Oluştur)
+      run: python bot.py
+
+    - name: M3U Dosyasını Repoya Yükle (Push)
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add ulusal.m3u
+        # Değişiklik yoksa hata vermemesi için || true kullanıyoruz
+        git commit -m "Güncel Ulusal M3U Linkleri Yenilendi" || echo "Değişiklik yok."
+        git push
