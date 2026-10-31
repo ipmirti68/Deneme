@@ -1,5 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Star TV",Star TV
-https://dogus.daioncdn.net/startv/startv_720p.m3u8?&sid=8vq3ujaa0egh&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3
-#EXTINF:-1 tvg-name="Show TV",Show TV
-https://ciner.daioncdn.net/showtv/showtv_1080p.m3u8?ex=1664766175&st=RBzhSuGauna0OGld-DJUVA&tv=1&sid=8vq3vlo4km99&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
+#EXTINF:-1 tvg-name="STAR",STAR
+https://content1.avplayer.com/5b59760c073ef46a2e6b8f13/videos/68f8c731e66f6e6a4603a0a3/hls/240.m3u8
+#EXTINF:-1 tvg-name="SHOW",SHOW
+https://ciner.daioncdn.net/showtv/showtv_1080p.m3u8?ex=1664766175&st=RBzhSuGauna0OGld-DJUVA&tv=1&sid=8vq49gcjxeeg&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
+#EXTINF:-1 tvg-name="TRT 1",TRT 1
+https://trt.daioncdn.net/trt-1/master.m3u8?app=web
