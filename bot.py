@@ -24,7 +24,7 @@ KANALLAR = [
         "url": "https://www.tabii.com/tr/watch/live/trt1?trackId=150002",
         "anahtar": ".m3u8",
         "logo": "https://img-startv.mncdn.com/assets/images/logo.png"
-    },
+    }
 ]
 
 async def get_m3u8_link(browser, kanal):
