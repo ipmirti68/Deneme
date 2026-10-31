@@ -1,13 +1,13 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="STAR",STAR
-https://content1.avplayer.com/5b59760c073ef46a2e6b8f13/videos/68f8c731e66f6e6a4603a0a3/hls/360.m3u8
+https://dogus.daioncdn.net/startv/startv_720p.m3u8?&sid=8vq5slgnnfxx&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3
 #EXTINF:-1 tvg-name="SHOW",SHOW
-https://ciner.daioncdn.net/showtv/showtv_1080p.m3u8?ex=1664766175&st=RBzhSuGauna0OGld-DJUVA&tv=1&sid=8vq4tbxywtkk&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
+https://ciner.daioncdn.net/showtv/showtv_1080p.m3u8?ex=1664766175&st=RBzhSuGauna0OGld-DJUVA&tv=1&sid=8vq5tmno9y95&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
 #EXTINF:-1 tvg-name="TRT 1",TRT 1
 https://trt.daioncdn.net/trt-1/master.m3u8?app=web
 #EXTINF:-1 tvg-name="ATV",ATV
-https://trkvz-live.ercdn.net/atvhd/atvhd_480p.m3u8?st=G5PCJGflbhiG4ufeEOZDNQ&e=1793513902
-#EXTINF:-1 tvg-name="SHOW",SHOW
-https://ciner.daioncdn.net/showtv/showtv_1080p.m3u8?ex=1664766175&st=RBzhSuGauna0OGld-DJUVA&tv=1&sid=8vq4x44a1iac&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
-#EXTINF:-1 tvg-name="TRT 1",TRT 1
-https://trt.daioncdn.net/trt-1/master.m3u8?app=web
+https://trkvz-live.ercdn.net/atvhd/atvhd_480p.m3u8?st=JKGPY-pqMWyW3fhx17sWYw&e=1793514580
+#EXTINF:-1 tvg-name="KANAL D",KANAL D
+https://demiroren.daioncdn.net/kanald/kanald_1080p.m3u8?&sid=8vq5xdn9nanq&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
+#EXTINF:-1 tvg-name="NOW",NOW
+https://nowtv-live-ad.ercdn.net/nowtv/nowtv_480p.m3u8?e=1793526758&st=Z-lc8ZC_Sgv4tFG6fhXwCA
