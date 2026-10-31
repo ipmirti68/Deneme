@@ -1,1 +1,5 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Star TV",Star TV
+https://content1.avplayer.com/5b59760c073ef46a2e6b8f13/videos/68f8c731e66f6e6a4603a0a3/hls/360.m3u8
+#EXTINF:-1 tvg-name="Show TV",Show TV
+https://ciner.daioncdn.net/showtv/showtv_1080p.m3u8?ex=1664766175&st=RBzhSuGauna0OGld-DJUVA&tv=1&sid=8vq2rqys3lc8&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
