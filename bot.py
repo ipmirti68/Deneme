@@ -4,22 +4,17 @@ from playwright.async_api import async_playwright
 CIKIS_DOSYASI = "ulusal.m3u"
 
 KANALLAR = [
+    KANALLAR = [
     {
-        "isim": "【entity-Star¦canonical_name=Star TV】 TV",
+        "isim": "Star TV",
         "url": "https://www.startv.com.tr/canli-yayin",
-        "anahtar": "720p.m3u8",
+        "anahtar": "startv_720p.m3u8",
         "logo": "https://img-startv.mncdn.com/assets/images/logo.png"
     },
     {
-        "isim": "【entity-Show¦canonical_name=Show TV】 TV",
+        "isim": "Show TV",
         "url": "https://www.showtv.com.tr/canli-yayin",
-        "anahtar": "master.m3u8", 
-        "logo": "https://mo.ciner.com.tr/showtv/iletisim/logo.png"
-    },
-    {
-        "isim": "【entity-Show¦canonical_name=Show TV】 TV",
-        "url": "https://www.showtv.com.tr/canli-yayin",
-        "anahtar": "master.m3u8", 
+        "anahtar": ".m3u8", 
         "logo": "https://mo.ciner.com.tr/showtv/iletisim/logo.png"
     }
 ]
