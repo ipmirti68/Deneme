@@ -5,17 +5,23 @@ CIKIS = "ulusal.m3u"
 
 KANALLAR = [
 {
-        "isim": "Star TV",
+        "isim": "STAR",
         "url": "https://www.startv.com.tr/canli-yayin",
         "anahtar": "startv_720p.m3u8",
         "logo": "https://img-startv.mncdn.com/assets/images/logo.png"
     },
     {
-        "isim": "Show TV",
+        "isim": "SHOW",
         "url": "https://www.showtv.com.tr/canli-yayin",
         "anahtar": ".m3u8", 
         "logo": "https://mo.ciner.com.tr/showtv/iletisim/logo.png"
-    }
+    },
+        {
+        "isim": "TRT 1",
+        "url": "https://www.tabii.com/tr/watch/live/trt1?trackId=150002",
+        "anahtar": ".m3u8", 
+        "logo": "https://mo.ciner.com.tr/showtv/iletisim/logo.png"
+        }
 
 ]
 
