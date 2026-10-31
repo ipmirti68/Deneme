@@ -4,9 +4,12 @@ from playwright.async_api import async_playwright
 CIKIS = "ulusal.m3u"
 
 KANALLAR = [
-    {"isim": "Star TV", "url": "https://www.startv.com.tr/canli-yayin", "logo": ""},
-    {"isim": "Show TV", "url": "https://www.showtv.com.tr/canli-yayin", "logo": ""},
+    {"isim": "STAR ", "url": "https://www.startv.com.tr/canli-yayin", "logo": ""},
+    {"isim": "SHOW ", "url": "https://www.showtv.com.tr/canli-yayin", "logo": ""},
+    {"isim": "TRT ", "url": "https://www.tabii.com/tr/watch/live/trt1?trackId=150002", "logo": ""},
 ]
+]
+
 
 async def al(browser, kanal):
     print(f"[*] {kanal['isim']}")
