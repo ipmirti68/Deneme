@@ -7,7 +7,7 @@ KANALLAR = [
     {"isim": "STAR ", "url": "https://www.startv.com.tr/canli-yayin", "logo": ""},
     {"isim": "SHOW ", "url": "https://www.showtv.com.tr/canli-yayin", "logo": ""},
     {"isim": "TRT ", "url": "https://www.tabii.com/tr/watch/live/trt1?trackId=150002", "logo": ""},
-]
+
 ]
 
 
