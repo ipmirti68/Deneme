@@ -29,8 +29,8 @@ KANALLAR = [
         "logo": "https://img-startv.mncdn.com/assets/images/logo.png"
     },
     {
-        "isim": "SHOW",
-        "url": "https://www.showtv.com.tr/canli-yayin",
+        "isim": "KANAL D",
+        "url": "https://www.kanald.com.tr/canli-yayin/",
         "anahtar": ".m3u8", 
         "logo": "https://mo.ciner.com.tr/showtv/iletisim/logo.png"
     },
